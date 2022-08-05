@@ -1,3 +1,15 @@
 API Testing Using RestAssured
 --------------------------------------
 Rest Assured --> Is an API designed for automating REST services/Rest API's
+
+- Java lib(api) for testing RESTful web services
+- to test XML & JSON based web services
+- Supports POST, GET, PUT, DELETE, OPTIONS, PATCH, HEAD
+- Can be integrated with testing frameworks like Unit, TestNG..
+- Rest Assured is implemented in Groovy
+
+BDD-
+
+Creating API
+https://github.com/typicode/json-server
+https://mockoon.com/
