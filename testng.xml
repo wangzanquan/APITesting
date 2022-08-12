@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Yang/IdeaProjects/APITesting/src/test/java/com/RESTAssured/aptTesting/DataDrivenExamples1.java">
+        <classes>
+            <class name="com.RESTAssured.aptTesting.DataDrivenExamples1">
+                <methods>
+                    <include name="test_post"/>
+                    <include name="test_delete2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Yang/IdeaProjects/APITesting/src/test/java/com/RESTAssured/aptTesting/Examples.java">
+        <classes>
+            <class name="com.RESTAssured.aptTesting.Examples">
+                <methods>
+                    <include name="test_get"/>
+                    <include name="test_post"/>
+                    <include name="test_patch"/>
+                    <include name="test_put"/>
+                    <include name="test_delete"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
